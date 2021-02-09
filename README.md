@@ -28,7 +28,7 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/divyansh22/friends-tv-show-scr
 
 ### Image reference
 
-[static/README.md]
+[static/README.md](https://github.com/fpem123/GPT2-Friends/blob/master/static/README.md)
 
 ## * With CLI *
 
