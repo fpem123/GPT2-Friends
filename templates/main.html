@@ -18,8 +18,7 @@
     window.onload = () => {
         time_obj = document.getElementById("timer");
         flag = false;
-        //chars = ["Rachel", "Joey", "Ross", "Charlie", "Phoebe", "Monica"];
-        chars = [];
+        chars = ["Rachel", "Joey", "Ross", "Charlie", "Phoebe", "Monica"];
     }
 
     function double_submit_check() {
@@ -94,7 +93,7 @@
 
 
                 if (chars.includes(data[i][0])) {
-                    name.innerHTML = `<td class="name"><center><img src="../static/${data[i][0]}.png" width="50" height="70"><br>${data[i][0]}</center></td>`;
+                    name.innerHTML = `<td class="name"><center><img src="../static/${data[i][0]}.jpg" width="50" height="70"><br>${data[i][0]}</center></td>`;
                 } else {
                     name.innerHTML = `<td class="name"><center><br>${data[i][0]}</center></td>`;
                 }
