@@ -32,7 +32,7 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/divyansh22/friends-tv-show-scr
 
 ## * With CLI *
 
-
+    curl -X POST "https://master-gpt2-friends-fpem123.endpoint.ainize.ai/friends" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "name=Rachel" -F "text=Hello" -F "length=150"
 
 ## * With swagger *
 
