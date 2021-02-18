@@ -43,7 +43,22 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/divyansh22/friends-tv-show-scr
 
 #### Output example
 
-
+    {
+      "0": [
+        [
+          "Rachel",
+          " Hello."
+        ],
+        [
+          "Joey",
+          " (on phone) Hey, its Joey!"
+        ],
+        [
+          "Rachel",
+          " Hey, Joey! Hey! Ooh! Ooh! I just say someone on the-that looks just like you on the subway. And I was gonna go"
+        ]
+      ]
+    }
 
 
 ## * With swagger *
