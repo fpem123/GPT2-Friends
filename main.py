@@ -34,13 +34,13 @@ def generate():
         sample_outputs = res.json()
 
         result = []
-        futurama_stories = sample_outputs['0'].split('\n')
+        friends_stories = sample_outputs['0'].split('\n')
 
-        for idx, futurama_story in enumerate(futurama_stories):
-            if idx == len(futurama_stories) - 1:
+        for idx, friends_story in enumerate(friends_stories):
+            if idx == len(friends_stories) - 1:
                 break
-            if futurama_story and ': ' in futurama_story:
-                    splitted = futurama_story.split(':')
+            if friends_story and ': ' in friends_story:
+                    splitted = friends_story.split(':')
                     print(splitted[0],splitted[1])
                     result.append([splitted[0], splitted[1]])
             else:
