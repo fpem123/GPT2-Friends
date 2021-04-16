@@ -20,7 +20,7 @@ def generate():
         name = request.form['name']
         text = request.form['text']
         length = int(request.form['length'])
-        URL = 'https://feature-add-torch-serve-gpt-2-server-gkswjdzz.endpoint.ainize.ai/infer/GPT2-large_Friends'
+        URL = 'https://feature-add-torch-serve-gpt-2-server-gkswjdzz.endpoint.ainize.ai/infer/gpt2-large_Friends'
         headers = {
             'Content-Type': 'application/json'
         }
