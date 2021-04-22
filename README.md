@@ -4,6 +4,8 @@
 
 This project generate Friends script using GPT-2 model.
 
+You can download the model here: [Hugging face](https://huggingface.co/HScomcom/gpt2-friends/tree/main)
+
 Fine tuning data: [Kaggle](https://www.kaggle.com/divyansh22/friends-tv-show-script)
 
 ### Model information
